@@ -118,7 +118,7 @@ class MoneyManager extends Component {
   render() {
     const {titleInput, amountInput, optionId, transactionsList} = this.state
     const balanceAmount= this.getBalance()
-    const incomeAmount = this.incomeAmount()
+    const incomeAmount = this.getIncome()
     const expensesAmount = this.getExpenses()
 
     return (
